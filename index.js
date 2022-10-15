@@ -1,3 +1,4 @@
 document.addEventListener('keydown', function(event) {
-    alert(event.keyCode)
+    console.log(event.keyCode)
+    document.getElementById("keyCodeH1").innerHTML = event.keyCode;
 });
