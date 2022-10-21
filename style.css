@@ -1,14 +1,15 @@
-      body {
-        background: rgb(168,168,168);
-        background: radial-gradient(circle, rgba(168,168,168,1) 4%, rgba(214,45,45,1) 14%, rgba(36,163,187,1) 58%);
-      }
-      h1 {
-        line-height: 200px;
-        margin-top: -100px;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        text-align: center;
-        width: 100%;
-        color: white;
-      }
+body {
+  background-image: radial-gradient(circle at center center, #474bff, #47d3ff), repeating-radial-gradient(circle at center center, #474bff, #474bff, 34px, transparent 68px, transparent 34px);
+  background-blend-mode: multiply;
+  background-color: #47d3ff;
+  }
+  h1 {
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
